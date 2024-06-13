@@ -2,17 +2,27 @@ body{
 
     margin: none;
     padding-top: 5%;
-    padding-left: 30px;
-    padding-right: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: rgba(0, 0, 0, 0.885);
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
+    padding-bottom: 60px;
 }
 
 .headings{
     font-size: 40px;
     color: rgb(192, 139, 7);
     font-weight: 600;
+}
+
+.line{
+
+    border-color: rgb(192, 139, 7);
+    width: 400px;
+    border-width: 2px; 
+    border-style: solid; 
+    margin: 20px 0;
 }
 
 
@@ -22,33 +32,38 @@ body{
     font-size: 35px;
 }
 
+
 .dp{
 
     padding: none;
-    border-radius: 80%;
+    border-radius: 50px;
     width: 400px;
     height: 400px;
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    margin-right: 70px;
+    transition: .5s;
 }
 
 .dp:hover {
-	-webkit-filter: blur(0);
-	filter: blur(0);
+	box-shadow: 0px 15px 25px rgb(192, 139, 7);
+    transform: translateY(-5px);
 }
 
 .icon{
-
+    border:none;
     color:rgb(215, 184, 107);
     font-size: 100px;
-    transition: transform 0.3s ease;
-    padding: 40px;
+    margin-right: 80px;
+    border:none;
+    transition: .5s;
+    
 }
+
 
 .icon:hover {
     transform: scale(1.5);
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
 }
 
 .image-container {
